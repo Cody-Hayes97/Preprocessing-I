@@ -144,6 +144,10 @@ body {
   height: auto;
   margin: auto;
   font-family: @fontFamily;
+  @media (max-width: 800px) {
+    width: 100%;
+    margin: 0 auto;
+  }
 
   @media (max-width: 500px) {
     width: 100%;
@@ -168,6 +172,10 @@ body {
   ul {
     display: flex;
     justify-content: space-between;
+    @media (max-width: 800px) {
+      width: 90%;
+      margin-left: 5%;
+    }
   }
   li:hover {
     opacity: 0.5;
@@ -181,6 +189,8 @@ body {
     margin: 0%;
     ul {
       flex-direction: column;
+      width: 100%;
+      margin: 0;
     }
     li {
       text-align: center;
@@ -231,6 +241,11 @@ body {
     button {
       display: flex;
       margin-left: 40%;
+      font-size: 80%;
+
+      @media (max-width: 400px) {
+        font-size: 60%;
+      }
     }
     .thanos {
       display: flex;
@@ -245,6 +260,10 @@ body {
   justify-content: space-between;
   border-bottom: 1px solid black;
   margin-bottom: 5%;
+  @media (max-width: 800px) {
+    width: 90%;
+    margin-left: 5%;
+  }
   .exp {
     width: 50%;
     h2 {
@@ -274,6 +293,9 @@ body {
     h2 {
       text-align: center;
       margin-top: 6.2%;
+      @media (max-width: 800px) {
+        padding-bottom: 1%;
+      }
     }
     ol {
       display: flex;
@@ -306,6 +328,10 @@ body {
   margin-left: 2%;
   display: flex;
   flex-direction: column;
+  @media (max-width: 800px) {
+    width: 90%;
+    margin-left: 5%;
+  }
 
   .add {
     margin-bottom: 2%;
